@@ -28,9 +28,10 @@ body {
     font-size: 16px;
 }
 main {
-    background: url(/images/pattern-background-desktop.svg)no-repeat center/cover;
+    background: url(/images/pattern-background-desktop.svg)no-repeat top/contain;
     width: 100vw;
-    height: 66vh;
+    height: 100vh;
+    background-color: var(--Pale-blue);
 }
 ul {
     list-style: none;
